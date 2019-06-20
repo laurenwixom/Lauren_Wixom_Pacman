@@ -1,0 +1,45 @@
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: hotpink;
+}
+div#world {
+    height: auto;
+}
+div.row div {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+div.brick {
+    background-color: pink;
+}
+div.coin {
+    background: url("coin.gif") no-repeat center;
+    
+}
+
+}
+div.cherry {
+    background: url("cherry.png") no-repeat center;
+    background-size: contain;
+}
+div#pacman {
+    background: url("pacman.gif") no-repeat center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+}
